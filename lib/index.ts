@@ -81,6 +81,7 @@ export class LoadingAnimation {
     }`;
 
     public styles: any = {
+        // container holds all elements
         container: {
             position: "absolute",
             left: 0,
@@ -88,6 +89,7 @@ export class LoadingAnimation {
             right: 0,
             bottom: 0,
         },
+        // the background ^^
         background: {
             position: "absolute",
             left: 0,
@@ -96,6 +98,7 @@ export class LoadingAnimation {
             bottom: 0,
             backgroundColor: "rgba(255,255,255,0.9)",
         },
+        // inner square
         loader: {
             position: "absolute",
             top: "50%",
@@ -108,6 +111,7 @@ export class LoadingAnimation {
             backgroundColor: "rgba(211,70,32,0.7)",
             opacity: 0.9,
         },
+        // container for the icon
         animation: {
             position: "absolute",
             display: "block",
@@ -117,9 +121,9 @@ export class LoadingAnimation {
             transform: "translate(-50%, -50%)",
             color: "white",
         },
+        // wrap around the icon which will be animated
         iconWrap: {
             display: "block",
-            fontSize: "3rem",
             width: "3rem",
             height: "3rem",
             "-webkit-transition-origin": "center center",
@@ -127,10 +131,11 @@ export class LoadingAnimation {
             "-webkit-animation": `loading-animation-${this._rand} 2s infinite linear`,
             animation: `loading-animation-${this._rand} 2s infinite linear`,
         },
+        // the icon/SVG
         icon: {
             display: "block",
-            width: "3rem",
-            height: "3rem",
+            width: "100%",
+            height: "100%",
         },
     };
 
