@@ -3,10 +3,23 @@
 Just another loading animation - a colored background with an rotating icon in the middle.  
 Use with JavaScript or TypeScript.
 
+
+## Install
+
+```sh
+npm -i @sunixzs/loading_animation
+```
+
+... or ...
+
+```sh
+yarn add @sunixzs/loading_animation
+```
+
 ## Use
 
 ```ts
-const la = require("typescript_loading_animation/dist");
+const la = require("@sunixzs/loading_animation/dist");
 
 const loadingAnimation = new la.LoadingAnimation(document.body);
 
@@ -38,8 +51,8 @@ constructor(
 ## Example with some options
 
 ```ts
-const la = require("typescript_loading_animation/dist");
-const spinner = require("typescript_loading_animation/icons/spinner");
+const la = require("@sunixzs/loading_animation/dist");
+const spinner = require("@sunixzs/loading_animation/icons/spinner");
 
 const loadingAnimation = new la.LoadingAnimation(
     document.body
