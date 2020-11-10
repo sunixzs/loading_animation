@@ -1,0 +1,32 @@
+{
+    "name": "@sunixzs/loading_animation",
+    "version": "1.0.0",
+    "description": "Just another loading animation - a colored background with an rotating icon in the middle.",
+    "main": "dist/index.js",
+    "types": "dist/index.d.ts",
+    "scripts": {
+        "build": "tsc",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/sunixzs/loading_animation.git"
+    },
+    "keywords": [
+        "typescript",
+        "loading",
+        "loader",
+        "animation",
+        "anim"
+    ],
+    "author": "sunixzs",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/sunixzs/loading_animation/issues"
+    },
+    "homepage": "https://github.com/sunixzs/loading_animation#readme",
+    "devDependencies": {
+        "@types/node": "^14.14.7",
+        "ts-node": "^9.0.0"
+    }
+}
