@@ -1,6 +1,6 @@
 {
     "name": "@sunixzs/loading_animation",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "Just another loading animation - a colored background with an rotating icon in the middle.",
     "main": "dist/index.js",
     "types": "dist/index.d.ts",
